@@ -48,23 +48,28 @@ body {
 /*END SWIPER*/
 /*HOMEPAGE*/
 #homepage{
-    background-image: url("../images/section1_bg.jpg");
+    /*background-image: url("../images/section1_bg.jpg");*/
+    /*max-height: 900px;*/
+    /*height: 900px;*/
+}
+
+.swiper-container .swiper-slide{
     max-height: 900px;
     height: 900px;
 }
 
-#homepage h1, section h1{
+#homepage h1{
     color: #0d507b;
     font-size: 60px;
 }
 
-#homepage hr, section hr{
+#homepage hr{
     height: 3px;
     opacity: 1;
     color: #0d507b;
 }
 
-#homepage p, section p {
+#homepage p{
     font-size: 16px;
 }
 
@@ -89,34 +94,40 @@ body {
 /*Section 2*/
 #company{
     background-image: url("../images/section2_bg.jpg");
-    max-height: 1375px;
-    height: 1375px;
+}
+
+#company .container{
+    padding: 0 100px;
+}
+
+#company article.col{
+    color: #4f7d9b;
+}
+
+#company article p {
+    font-size: 10px;
+}
+
+#company i.fa-2x {
+    padding: 11px 0;
 }
 
 /*Section 3*/
 #investor-overview{
-    background-image: url("../images/section3_bg.jpg");
-    max-height: 1150px;
-    height: 1150px;
+    /*background-image: url("../images/section3_bg.jpg");*/
 }
 
 /*Section 4*/
 #case-studies{
-    background-image: url("../images/section4_bg.jpg");
-    max-height: 900px;
-    height: 900px;
+    /*background-image: url("../images/section4_bg.jpg");*/
 }
 
 /*Section 5*/
 #news-events{
-    background-image: url("../images/section5_bg.jpg");
-    max-height: 900px;
-    height: 900px;
+    /*background-image: url("../images/section5_bg.jpg");*/
 }
 
 /*Section 6*/
 #contact{
-    background-image: url("../images/section6_bg.jpg");
-    max-height: 800px;
-    height: 800px;
+    /*background-image: url("../images/section6_bg.jpg");*/
 }
