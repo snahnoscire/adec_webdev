@@ -65,7 +65,7 @@
 <main class="swiper-container mySwiper">
     <div class="swiper-wrapper">
 
-        <section id="homepage" class="swiper-slide row">
+        <section id="homepage" class="swiper-slide">
             <div class="col container text-center mt-5">
                 <h1>STRATEGIC CONSULTING<br>FOR A DIGITAL WORLD</h1>
                 <hr class="mx-auto placeholder col-4 my-5">
@@ -102,11 +102,14 @@
 <script>
     var swiper = new Swiper(".mySwiper", {
         direction: "vertical",
+        // spaceBetween: 30,
         autoHeight: true,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
         },
+        loop: true,
+        slidesPerView: "auto"
     });
 </script>
 </body>

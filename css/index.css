@@ -50,6 +50,7 @@ body {
 #homepage{
     background-image: url("../images/section1_bg.jpg");
     max-height: 900px;
+    height: 900px;
 }
 
 #homepage h1, section h1{
@@ -88,34 +89,34 @@ body {
 /*Section 2*/
 #company{
     background-image: url("../images/section2_bg.jpg");
-    /*max-height: 1375px;*/
-}
-
-.swiper-container .swiper-slide:nth-child(2n) {
+    max-height: 1375px;
     height: 1375px;
-    line-height: 1375px;
 }
 
 /*Section 3*/
 #investor-overview{
     background-image: url("../images/section3_bg.jpg");
     max-height: 1150px;
+    height: 1150px;
 }
 
 /*Section 4*/
 #case-studies{
     background-image: url("../images/section4_bg.jpg");
     max-height: 900px;
+    height: 900px;
 }
 
 /*Section 5*/
 #news-events{
     background-image: url("../images/section5_bg.jpg");
     max-height: 900px;
+    height: 900px;
 }
 
 /*Section 6*/
 #contact{
     background-image: url("../images/section6_bg.jpg");
     max-height: 800px;
+    height: 800px;
 }
