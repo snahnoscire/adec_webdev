@@ -1,0 +1,121 @@
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*END SWIPER*/
+/*HOMEPAGE*/
+#homepage{
+    background-image: url("../images/section1_bg.jpg");
+    max-height: 900px;
+}
+
+#homepage h1, section h1{
+    color: #0d507b;
+    font-size: 60px;
+}
+
+#homepage hr, section hr{
+    height: 3px;
+    opacity: 1;
+    color: #0d507b;
+}
+
+#homepage p, section p {
+    font-size: 16px;
+}
+
+#homepage button{
+    border: none;
+    background-size: cover;
+    background-color: transparent;
+}
+
+#btn_play_video{
+    width: 69px;
+    height: 72px;
+    background-image: url("../images/btn_play_video.png");
+}
+
+#btn_scroll{
+    width: 31px;
+    height: 46px;
+    background-image: url("../images/btn_scroll.png");
+}
+
+/*Section 2*/
+#company{
+    background-image: url("../images/section2_bg.jpg");
+    /*max-height: 1375px;*/
+}
+
+.swiper-container .swiper-slide:nth-child(2n) {
+    height: 1375px;
+    line-height: 1375px;
+}
+
+/*Section 3*/
+#investor-overview{
+    background-image: url("../images/section3_bg.jpg");
+    max-height: 1150px;
+}
+
+/*Section 4*/
+#case-studies{
+    background-image: url("../images/section4_bg.jpg");
+    max-height: 900px;
+}
+
+/*Section 5*/
+#news-events{
+    background-image: url("../images/section5_bg.jpg");
+    max-height: 900px;
+}
+
+/*Section 6*/
+#contact{
+    background-image: url("../images/section6_bg.jpg");
+    max-height: 800px;
+}
